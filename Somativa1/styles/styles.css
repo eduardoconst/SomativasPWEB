@@ -131,3 +131,18 @@ nav a:hover {
 .submit:hover{
     background-color: #f14d37bb; /* Azul mais escuro */
 }
+
+.hidden{
+    opacity: 0;
+    filter: blur(15px);
+    transform: translateX(-100%);
+    transition: all 1s;
+
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    transition: all 1s;
+}
