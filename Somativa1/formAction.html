@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recebimento dos dados</title>
+    <link rel="stylesheet" href="styles/styleForm.css" type="text/css">
+</head>
+
+<body>
+    <script type="text/javascript" src="scripts/script.js"></script>
+    <div class="content">
+
+        <h3 id="corners">RECEBIMENTO DADOS DO MR.OLYMPIA</h3>
+
+        <p class="subTitulo">Veja se os dados enviados via <b>GET</b> estão corretos</p>
+        <table class="tableCSS">
+            <tr><th>Chave</th><th>Valor</th></tr>
+            <script language=javascript>
+                var params = new Array();
+                params = getParameters();
+                for (let [key, value] of Object.entries(params)) {
+                    document.write("<tr><td style='text-align: center;'><b>" + key + "</b></td><td>" + value + "</td></tr>");
+                }
+            </script>
+            <tr><th colspan="2">
+                <input type=button name="Retornar" value=" << Retornar" onclick="window.location.href='index.html'" class="retornar">
+            </th></tr>
+        </table>
+        
+
+    </div>
+</body>

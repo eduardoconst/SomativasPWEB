@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: #1a1a1a; /* Fundo escuro semelhante ao ChatGPT */
+    color: #fff;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* Estilo do contêiner principal */
+.content {
+    max-width: 600px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #2b2b2b; /* Fundo escuro um pouco mais claro */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.titulo {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#corners {
+    font-size: 24px;
+    color: #fff;
+}
+
+/* Estilo do subtítulo */
+.subTitulo {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/*PARTE DE FORMULARIO*/ 
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo dos botões de envio e reset */
+.submit-button, .reset-button {
+    background-color: #b31601; /* Azul semelhante ao ChatGPT */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo dos campos de entrada de radio */
+.radio-inputs {
+    display: flex;
+    justify-content: center; /* Centralizar os campos de radio */
+    align-items: center;
+    margin: 10px 0;
+}
+
+.input[type="radio"] {
+    width: 20px; /* Largura e altura para criar campos quadrados */
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%; /* Bordas arredondadas para criar campos quadrados */
+}
+
+.radio-label {
+    color: #fff;
+    
+}
+
+/* Alinhar os botões ao centro */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo dos botões ao passar o mouse sobre eles */
+.submit-button:hover, .reset-button:hover {
+    background-color: #f14d37bb; /* Azul mais escuro */
+}
+
+/* Estilo do seletor de avaliação */
+#avaliação {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo dos botões de rádio */
+.radio-inputs {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+.radio-label {
+    color: #fff;
+}
+
+/* Alinhar os botões ao centro */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/*PARTE DO CSS DO CABEÇALHO*/
+.cabecalho {
+    padding: 15px;
+    border-radius: 5px;
+    color :black;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    max-height: 50px; /* Ajuste a altura máxima conforme necessário */
+    
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+.menu li {
+    margin: 0 10px;
+    display: inline;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+
