@@ -7,22 +7,68 @@
     <title>Mr. Olympia</title>
 </head>
 <body>
-        <header>
-            <div class="header-content">
-                <div class="logo">
-                    <img src="imagens/logo.png" alt="Logo da Empresa">
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="index.html" class="links">Pagina inicial</a></li>
-                        <li><a href="about.html" class="links">Sobre nós</a></li>
-                        <li><a href="form.html" class="links">Formulário</a></li>
-                    </ul>
-                </nav>
+    <div class="preloader" id="preloader">
+        <div class="loader" id="loader"></div>
+    </div>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="imagens/logo.png" alt="Logo da Empresa">
             </div>
-        </header>
-        <section class="hidden">
-            <div class="container conteudo">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="links">Pagina inicial</a></li>
+                    <li><a href="about.html" class="links">Sobre nós</a></li>
+                    <li><a href="form.html" class="links">Formulário</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    </div>
+    <div class="slider">
+
+        <div class="slides">
+            <!--Botoes-->
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim botoes-->
+            <!--Imagens Slides-->
+            <div class="slide first">
+                <img src="imagens/imagem1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide">
+                <img src="imagens/imagem2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide">
+                <img src="imagens/imagem3.jpg" alt="Imagem 3">
+            </div>
+            <div class="slide">
+                <img src="imagens/imagem4.jpg" alt="Imagem 4">
+            </div>
+            <!--Fim slides-->
+            <!--navigation auto-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+            <!--fim navigation-->
+        </div>
+1       
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+    <section class="corpo">
+        <div class="container conteudo">
+            <section class="hidden">
                 <h1 class="titulo">Mr. Olympia: A Maior Competição de Fisiculturismo do Mundo</h1>
                 <p></p>
                 <p class="paragrafo">Vamos ver alguns exemplos de como criar uma estrutura e estilo para manter em todas as páginas de um site.
@@ -31,7 +77,6 @@
                 </p>
                 <p></p>
             </section>
-
             <section class="hidden">
                 <div class="esquerda">
                     <h2 class="titulo">História do Mr. Olympia</h2>
@@ -44,7 +89,6 @@
                     <p class="paragrafo">Ao longo de décadas, o Mr. Olympia passou por várias mudanças, incluindo a introdução de novas categorias, como o Men's Physique e o Women's Physique. O evento evoluiu para se tornar uma plataforma para atletas demonstrarem não apenas tamanho e definição, mas também simetria, harmonia e performance atlética.</p>
                 </div>
             </section>
-
             <section class="hidden">
                 <div class="direita">
                     <h2 class="titulo">Criadores e Organizadores</h2>
@@ -52,7 +96,6 @@
                     <p class="paragrafo">O Mr. Olympia foi concebido e mantido por algumas das figuras mais influentes no mundo do fisiculturismo, incluindo Joe Weider e Ben Weider. Atualmente, a competição é organizada pela International Federation of Bodybuilding & Fitness (IFBB), que continua a promover os ideais estabelecidos pelos fundadores.</p>
                 </div>
             </section>
-
             <section class="hidden">
                 <div class="esquerda">
                     <h2 class="titulo">Vencedores Históricos</h2>
@@ -88,7 +131,6 @@
                     <p></p>
                 </div>
             </section>
-
             <section class="hidden">
                 <div class="direita">
                     <h2 class="titulo">Principais Competidores do Mr. Olympia deste Ano</h2>
@@ -119,7 +161,8 @@
                 <p class="paragrafo">O Mr. Olympia é muito mais do que apenas um concurso de fisiculturismo; é um evento que celebra a dedicação, a paixão e o comprometimento de atletas de elite que moldam seus corpos para a perfeição. A história, os criadores, os vencedores, as categorias e os competidores deste ano fazem deste evento um dos mais emocionantes e inspiradores do mundo do fisiculturismo. O Mr. Olympia é um testemunho da determinação humana em busca da excelência física. Não perca a próxima edição e acompanhe de perto os atletas que competirão por um lugar na história do fisiculturismo.</p>
             </section>
         </div>
-
+    </section>
+    <script src="script/animation.js"></script>
+    <script src="script/preloader.js"></script>
 </body>
-<script type="text/javascript" src="scripts/animation.js"></script>
 </html>
