@@ -16,7 +16,7 @@ body {
     
 }
 
-
+/*inicio cabeçalho*/
 header {
     background: linear-gradient(to bottom, #2b2b2b, #2b2b2b);
     color: #fff;
@@ -38,7 +38,7 @@ header {
     width: 70px;
     height: auto;
 }
-
+/*links*/
 nav {
     text-align: center; /* Centraliza o texto dentro do contêiner */
     flex-grow: 1; /* Ocupa o espaço restante disponível */
@@ -64,23 +64,14 @@ nav a {
 nav a:hover {
     color: #f87171;
 }
-
-
+/*fim links*/
+/*logo*/
 .logo img {
     width: 70px;
     height: auto;
 }
-
-.formulario {
-    background-color: #610606;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: -5px;
-}
-
+/*fim logo*/
+/*corpo do site (textos, imagens etc)*/
 .container.conteudo {
     text-align: justify; 
     max-width: 800px; 
@@ -91,25 +82,6 @@ nav a:hover {
 
 .topico {
     margin-bottom: 30px;
-}
-
-.topico img {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.hidden .esquerda .topico {
-    float: left;
-    width: 45%;
-    margin-right: 5%;
-}
-
-.hidden .direita .topico {
-    float: right;
-    width: 45%; 
-    margin-left: 5%;
 }
 
 .titulo {
@@ -125,9 +97,20 @@ nav a:hover {
 .subtitulo {
     color: #cccccc;
 }
+/*imagens*/
+.padrao-img{
+    max-width: 70%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    margin-top: 40px;
+    margin-bottom: 40px;
 
+}
+
+/*botoes do about*/
 .submit{
-    background-color: #b31601; /* Azul semelhante ao ChatGPT */
+    background-color: #b31601; 
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -139,6 +122,8 @@ nav a:hover {
 .submit:hover{
     background-color: #f14d37bb; /* Azul mais escuro */
 }
+/*fim botoes*/
+/*fim do corpo*/
 /* começo slides */
 .slider{
     margin: 0 auto;
