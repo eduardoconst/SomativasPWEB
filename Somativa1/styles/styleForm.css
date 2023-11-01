@@ -7,14 +7,13 @@
 	animation: spinz 1.35s linear infinite;
 	width: 100%;
 	height: 100%;
-	/* background-color: #ffffff; */
-	background-color: #1a1a1a;       /* Change the background color here */
+	background-color: #1a1a1a;       
 	z-index: 100;
 }
   
 .loader {
 	border: 16px solid #2b2a2a;
-	border-top: 16px solid #a00000;  /* Change the preloader color here */
+	border-top: 16px solid #a00000;  
 	border-radius: 50%;
 	width: 120px;
 	height: 120px;
@@ -59,12 +58,11 @@
 	  opacity:0;
 	}
 }
+/* fim */
 
 
 
-
-
-
+/*CSS Geral*/
 * {
     margin: 0;
     padding: 0;
@@ -81,122 +79,9 @@ body {
     align-items: center;
     height: 100vh;
 }
+/*cabeçalho*/
 
 
-
-/* Estilo do contêiner principal */
-.content {
-    max-width: 600px;
-    margin-top: 150px;
-    padding: 20px;
-    background-color: #2b2b2b; /* Fundo escuro um pouco mais claro */
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    text-align: center;
-}
-
-.titulo {
-    padding: 10px;
-    border-radius: 5px;
-}
-
-#corners {
-    font-size: 24px;
-    color: #fff;
-}
-
-/* Estilo do subtítulo */
-.subTitulo {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-/*PARTE DE FORMULARIO*/ 
-
-.input {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    background-color: #333; /* Cinza escuro */
-    color: #fff;
-    border-radius: 5px;
-}
-
-/* Estilo dos botões de envio e reset */
-.submit-button, .reset-button {
-    background-color: #b31601; /* Azul semelhante ao ChatGPT */
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 10px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-/* Estilo dos campos de entrada de radio */
-.radio-inputs {
-    display: flex;
-    justify-content: center; /* Centralizar os campos de radio */
-    align-items: center;
-    margin: 10px 0;
-}
-
-.sexo , .data{
-    text-align: left;
-    color: #696767;
-    
-}
-
-
-
-.input[type="radio"] {
-    width: 20px; /* Largura e altura para criar campos quadrados */
-    height: 20px;
-    margin: 0 5px;
-    border-radius: 50%; /* Bordas arredondadas para criar campos quadrados */
-}
-
-
-.radio-label {
-    color: #fff;
-    
-}
-
-/* Alinhar os botões ao centro */
-.button-container {
-    text-align: center;
-    margin-top: 20px;
-}
-
-/* Estilo dos botões ao passar o mouse sobre eles */
-.submit-button:hover, .reset-button:hover {
-    background-color: #f14d37bb; /* Azul mais escuro */
-}
-
-
-
-/* Estilo dos botões de rádio */
-
-
-input[type="radio"] {
-    margin: 0 5px;
-}
-
-.radio-label {
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-/*PARTE DO CSS DO CABEÇALHO*/
 .cabecalho {
     padding: 15px;
     border-radius: 5px;
@@ -232,3 +117,112 @@ input[type="radio"] {
     font-size: 15px;
 }
 
+/*fim*/
+
+
+
+/* Estilo do contêiner principal */
+.content {
+    max-width: 600px;
+    margin-top: 150px;
+    padding: 20px;
+    background-color: #2b2b2b; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.titulo {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#corners {
+    font-size: 24px;
+    color: #fff;
+}
+/*fim*/
+
+/* Estilo do subtítulo */
+.subTitulo {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/*fim*/
+
+
+/*CSS de FORMULARIO*/ 
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #333; 
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Estilo dos botões de envio e reset */
+.submit-button, .reset-button {
+    background-color: #b31601; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilo dos campos de entrada de radio */
+.radio-inputs {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin: 10px 0;
+}
+
+.sexo , .data{
+    text-align: left;
+    color: #696767;
+    
+}
+
+
+
+.input[type="radio"] {
+    width: 20px; 
+    height: 20px;
+    margin: 0 5px;
+    border-radius: 50%; 
+}
+
+
+.radio-label {
+    color: #fff;
+    
+}
+
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.submit-button:hover, .reset-button:hover {
+    background-color: #f14d37bb; 
+}
+
+
+
+input[type="radio"] {
+    margin: 0 5px;
+}
+
+.radio-label {
+    color: #fff;
+}
+
+/*fim*/
