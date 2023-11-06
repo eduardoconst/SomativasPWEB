@@ -1,4 +1,4 @@
-/*CSS preloader*/
+/*CSS animação preloader*/
 
 .preloader {
 	position: fixed;
@@ -62,7 +62,7 @@
 
 
 
-/*CSS Geral*/
+/*CSS Geral para a pagina inteira*/
 * {
     margin: 0;
     padding: 0;
@@ -70,8 +70,9 @@
 }
 
 /* Estilo do corpo da página */
+
 body {
-    background-color: #1a1a1a; /* Fundo escuro semelhante ao ChatGPT */
+    background-color: #1a1a1a; 
     color: #fff;
     font-family: Arial, sans-serif;
     display: flex;
@@ -79,9 +80,10 @@ body {
     align-items: center;
     height: 100vh;
 }
+/*FIM*/
+
+
 /*cabeçalho*/
-
-
 .cabecalho {
     padding: 15px;
     border-radius: 5px;
@@ -95,7 +97,7 @@ body {
 }
 
 .logo {
-    max-height: 50px; /* Ajuste a altura máxima conforme necessário */
+    max-height: 50px; 
     
 }
 
