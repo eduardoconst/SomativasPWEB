@@ -1,3 +1,8 @@
+/*
+    Feito por : Eduardo Ferreira Constantino
+                Pedro Lucca Golçalves de Araujo
+*/
+
 const myOberver = new IntersectionObserver( (entries) =>{ /* variavel para criar um observador para alguma classe no caso a Hidden*/
     entries.forEach( (entry) => { /* A cada elemento que estiver na tela ele aparece com a classe do css(animação) */
       if (entry.isIntersecting){

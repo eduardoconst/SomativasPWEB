@@ -1,3 +1,8 @@
+/*
+    Feito por : Eduardo Ferreira Constantino
+                Pedro Lucca Golçalves de Araujo
+*/
+
 let elem_preloader = document.getElementById("preloader"); /*Procura o elemento do id preloader*/
 let elem_loader = document.getElementById("loader"); /*Procura o elemento do id loader*/
 console.log("Testing... Ok"); /* Manda um log no console de "Testing... OK"*/

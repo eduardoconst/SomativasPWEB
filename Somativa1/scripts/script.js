@@ -1,3 +1,8 @@
+/*
+    Feito por : Eduardo Ferreira Constantino
+                Pedro Lucca Golçalves de Araujo
+*/
+
 function getParameters() {
 
     var params    = new Array();
